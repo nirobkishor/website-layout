@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Explore</title>
+    <script src="https://kit.fontawesome.com/da1cace8fd.js" crossorigin="anonymous"></script>
+    <style>
+        .fa-star {
+            color: gold;
+            font-size: 25px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .card {
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            .gallery {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .link-button {
+            text-decoration: none;
+            background-image: linear-gradient(orange, rgb(235, 34, 34));
+            color: white;
+            font-weight: 700;
+            border-radius: 5px;
+            padding: 3px 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <section>
+            <h1>Popular Collection</h1>
+        </section>
+        <section class="gallery">
+            <div class="card">
+                <img src="images/VR-Plus.jpg" alt="">
+                <h2>VR-Plus</h2>
+                <h4>price:$100</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia cum nihil neque, dolorum
+                    earum
+                    veniam quia? Ipsum ex numquam, recusandae nam, animi pariatur sint, dolores atque reiciendis
+                    assumenda
+                    officiis.</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.amazon.com/Samsung-Electronics-Wireless-Controllers-XE800ZBA-HC1US/dp/B07HS7R1RT">Order
+                    Now</a>
+            </div>
+            <div class="card">
+                <img src="images/Samsung-Fold.jpg" alt="">
+                <h2>Samsung-fold</h2>
+                <h4>price:$200</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Reprehenderit, eum? Corporis qui accusamus magni doloribus provident hic optio porro, nostrum error
+                    sit
+                    neque quod, expedita officiis pariatur minus aliquam dolor nihil debitis ullam eos. Distinctio in ad
+                    ratione!</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.amazon.com/SAMSUNG-Unlocked-Smartphone-Foldable-Compatible/dp/B0B3TC2XXZ?th=1">Order
+                    Now</a>
+            </div>
+            <div class="card">
+                <img src="images/samsung-tab.jpg" alt="">
+                <h2>Samsung-tab</h2>
+                <h4>price:$300</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Vero porro quo distinctio explicabo quasi cumque hic id, pariatur iste praesentium eius eos atque
+                    accusantium? Incidunt, ex praesentium sunt quis atque sequi labore temporibus, minima cumque
+                    deleniti
+                    voluptates aspernatur!</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.amazon.com/Samsung-Android-Storage-Included-Graphite/dp/B09NQN4679">Order
+                    Now</a>
+            </div>
+            <div class="card">
+                <img src="images/bose-speaker.jpg" alt="">
+                <h2>Bose-speaker</h2>
+                <h4>price:$40</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Earum obcaecati veniam magni, itaque, voluptatem nobis laudantium similique ex excepturi quod minus
+                    nemo
+                    aliquid maiores tenetur quibusdam cupiditate accusantium quas necessitatibus exercitationem quae
+                    numquam
+                    eum modi quam vel. Autem!</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.amazon.com/Bose-Portable-Home-Speaker-Built/dp/B07VFKBQ3K">Order
+                    Now</a>
+            </div>
+            <div class="card">
+                <img src="images/jbl.jpg" alt="">
+                <h2>go-3</h2>
+                <h4>price:$50</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Ipsum sequi facilis enim ab vitae laboriosam debitis, veniam expedita saepe dicta mollitia quo
+                    temporibus
+                    praesentium architecto labore reprehenderit fuga ipsa veritatis consequatur minus vel animi id
+                    quisquam?
+                    Perferendis, asperiores.</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.amazon.com/JBL-Bluetooth-Built-Waterproof-Dustproof/dp/B08KW1KR5H">Order
+                    Now</a>
+            </div>
+            <div class="card">
+                <img src="images/buds.jpg" alt="">
+                <h2>Ear-buds</h2>
+                <h4>price:$100</h4>
+                <p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>Praesentium aperiam nemo sed voluptatem modi? Porro deleniti dolorum ratione ullam minima quae iure.
+                    Deserunt iste modi dignissimos unde quod error fugit aliquid, suscipit qui impedit, aperiam aliquam
+                    delectus repudiandae.</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.amazon.com/SAMSUNG-Bluetooth-Cancelling-Conversation-Resistant/dp/B0B2SH4CN6/ref=sr_1_21?keywords=earbuds&qid=1679342732&sr=8-21">Order
+                    Now</a>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
